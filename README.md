@@ -4,6 +4,7 @@
 **Tools:** Python · ArcGIS API for Python · Folium · GeoPandas · Pandas
 
 ---
+ ## Live Maps
 
 ## Overview
 
@@ -140,6 +141,7 @@ m.save("geocoded_map.html")
 ```
 
 **Output:** `geocoded_map.html`
+- [🗺️ CartoDB Basemap](https://siddik95.github.io/GeocodingWithArcGISAPI/geocoded_map.html)
 
 > 🗺️ *5,794 healthcare facility points plotted across Florida on a light CartoDB basemap. Each dot is colored along a red → purple gradient. Hovering over a point shows the facility name; clicking opens a popup.*
 
@@ -169,7 +171,7 @@ m.save("geocoded_map_esri.html")
 ```
 
 **Output:** `geocoded_map_esri.html`
-
+- [🛰️ Esri Satellite](https://siddik95.github.io/GeocodingWithArcGISAPI/geocoded_map_esri.html)
 > 🛰️ *Same 5,794 facility points on an Esri satellite imagery basemap. The aerial view makes it easy to visually correlate healthcare facility density with urban vs. rural areas of Florida.*
 
 ---
@@ -214,23 +216,12 @@ m.save("geocoded_map_multi.html")
 ```
 
 **Output:** `geocoded_map_multi.html`
-
+- [🎛️ Multi-Basemap (Interactive)](https://siddik95.github.io/GeocodingWithArcGISAPI/geocoded_map_multi.html)
 > 🎛️ *The layer control panel (top-right corner of the map) lets users toggle between CartoDB Positron, Esri Satellite, OpenStreetMap, and Dark Mode. Markers are slightly larger (radius=4) and more opaque (fill_opacity=0.7) in this version for better visibility across all basemap styles.*
 
 ---
 
-## Why GitHub Can't Render These Files
 
-GitHub's Markdown renderer and file viewer do **not** execute JavaScript. The Folium HTML maps are fully self-contained interactive Leaflet.js applications — they render correctly in any web browser, but GitHub shows them as raw HTML source or a blank page.
-
-**To view the maps:**
-
-- Download the `.html` files and open them locally in Chrome, Firefox, or Edge
-- Host them on **GitHub Pages** (`gh-pages` branch) — GitHub Pages *does* serve HTML/JS
-- Use **[NBViewer](https://nbviewer.org/)** or embed via an `<iframe>` in a GitHub Pages site
-- Share via **[Gist](https://gist.github.com/)** and view through `bl.ocks.org`
-
----
 
 ## Dependencies
 
