@@ -1,4 +1,4 @@
-# Geocoding Florida Healthcare Facilities with ArcGIS & Folium
+# Geocoding Florida Healthcare Facilities with ArcGIS API for Python & Folium
 
 **Author:** Rahman  
 **Tools:** Python · ArcGIS API for Python · Folium · GeoPandas · Pandas
